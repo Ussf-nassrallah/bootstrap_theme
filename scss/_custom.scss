@@ -1,0 +1,11 @@
+// colors
+$theme-colors: (
+    "primary": #16c2d5,
+    "secondary": #527c88,
+    "darkBlue": #10217d,
+);
+
+$border-radius: 0rem;
+
+// Import Bootstrap 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

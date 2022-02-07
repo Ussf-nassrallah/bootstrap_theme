@@ -1,0 +1,41 @@
+@import "../helpers/helpers";
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+    a.nav-link {
+        padding: 0 !important;
+        margin-left: 3rem;
+        transition: all 500ms ease !important;
+        text-transform: uppercase;
+
+        &.active,
+        &:hover {
+            color: $primary-clr !important;
+        }
+    }
+
+    li.nav-item.social {
+        margin-left: 1rem !important;
+
+        ul {
+            padding-left: 0.5rem !important;
+            list-style: none;
+            align-items: center;
+            border-left: 1px solid #fff;
+
+            li {
+                // font-size: 2rem !important;
+                margin-left: 1rem;
+
+                svg {
+                    opacity: 0.5;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
