@@ -1,0 +1,29 @@
+.services {
+    background-color: #f4f4f4;
+
+    article {
+        background: #fff;
+        padding: 2rem;
+        margin-bottom: 1rem;
+
+        display: flex;
+        align-items: center;
+
+        // border: 1px solid #ccc;
+
+        img {
+            width: 80px;
+            display: block;
+            margin-right: 2rem;
+        }
+
+        p {
+            opacity: 0.5;
+            font-size: 1.125rem;
+        }
+
+        h3 {
+            margin-top: 0.5rem;
+        }
+    }
+}

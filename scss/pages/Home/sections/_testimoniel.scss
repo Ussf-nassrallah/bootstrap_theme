@@ -41,7 +41,13 @@
         bottom: 0;
 
         img {
-            width: 500px;
+            width: 600px;
         }
+    }
+
+    .btn-dark {
+        background-color: #333 !important;
+        color: #fff !important;
+        margin-top: 1rem;
     }
 }
