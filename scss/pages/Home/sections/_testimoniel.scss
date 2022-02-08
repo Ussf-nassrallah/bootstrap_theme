@@ -1,0 +1,47 @@
+@import "../../../helpers/helpers";
+
+.testimoniel {
+    background-color: $dark-blue-clr;
+    position: relative;
+
+    .carousel {
+        max-width: 600px;
+    }
+
+    article {
+        h4 {
+            font-weight: 400;
+            font-size: 2.125rem;
+            line-height: 1.5;
+        }
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        background-color: #333;
+        opacity: 1 !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+        bottom: initial !important;
+        width: 10% !important;
+        padding: 1rem 0 !important;
+    }
+
+    .carousel-control-prev {
+        margin-left: -2rem;
+    }
+
+    .carousel-control-next {
+        margin-right: -2rem;
+    }
+
+    .smile-face-img {
+        position: absolute;
+        right: 1rem;
+        bottom: 0;
+
+        img {
+            width: 500px;
+        }
+    }
+}
