@@ -11,7 +11,7 @@
         <!-- INTRO SECTION -->
         <section id="intro-section" class="intro">
             <!-- NAVBAR -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-3">
+            <nav class="navbar navbar-expand-lg navbar-light py-3">
                 <div class="container">
                     <a class="navbar-brand" href="#">Navbar</a>
                     <button
@@ -50,7 +50,9 @@
                                 <a class="nav-link" href="#">smile gallery</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">contact us</a>
+                                <a class="nav-link" href="#"
+                                    >contact us <span>(+212 4114 1524)</span></a
+                                >
                             </li>
                             <!--<li class="nav-item dropdown">
                                 <a
@@ -305,13 +307,13 @@
                     <span class="text-uppercase text-primary"
                         >Our Services</span
                     >
-                    <h2>
+                    <h2 class="fs-1 pt-2">
                         We want you to have a smile that looks as good as it
                         feels.
                     </h2>
                 </header>
 
-                <div class="row pt-5">
+                <div class="row pt-2">
                     <div class="col-md-6">
                         <article>
                             <div>
@@ -385,6 +387,156 @@
             </div>
         </section>
 
-        <script src="./assets/js/bootstrap.bundle.js"></script>
+        <!-- Portfolio -->
+        <section class="portfolio py-5">
+            <div class="container">
+                <!-- start slider -->
+                <div
+                    id="carouselExampleCaptions"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <article>
+                                <div class="left"></div>
+                                <div class="right">
+                                    <span>Service</span>
+                                    <h3>1000 Smiles Dental Project</h3>
+                                    <p>
+                                        Dr. Randy Burba participates in the 1000
+                                        Smiles Dental Project, the world’s
+                                        largest humanitarian dental project.
+                                        Annually, he and his wife travel to
+                                        Jamaica to provide much needed care.
+                                    </p>
+                                    <button class="btn btn-primary">
+                                        learn more
+                                    </button>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="carousel-item">
+                            <article>
+                                <div class="left"></div>
+                                <div class="right">
+                                    <span>Service</span>
+                                    <h3>1000 Smiles Dental Project</h3>
+                                    <p>
+                                        Dr. Randy is proud to be a Give Back a
+                                        Smile Dentist, an initiative through the
+                                        AACD that works to restore the smiles of
+                                        women and men who have been injured as a
+                                        result of domestic violence or sexual
+                                        assault.
+                                    </p>
+                                    <p>
+                                        Tina, a well-deserving applicant,
+                                        recently received a smile makeover
+                                        courtesy of Dr. Burba.
+                                    </p>
+                                    <button class="btn btn-primary">
+                                        learn more
+                                    </button>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- end slider -->
+            </div>
+        </section>
+
+        <!-- home gallery -->
+        <section class="home-gallery py-5">
+            <div class="container">
+                <header
+                    class="text-center my-5 section-hdr d-flex justify-content-center align-items-center flex-column"
+                >
+                    <span class="text-uppercase text-primary"
+                        >For Your Comfort</span
+                    >
+                    <h2 class="fs-1 pt-2">
+                        Dr. Stanley and Dr. Randy provide patients with a clear
+                        understanding of their care.
+                    </h2>
+                </header>
+
+                <!-- start carousel -->
+                <div
+                    id="carouselExampleCaptions"
+                    class="carousel slide"
+                    data-bs-ride="carousel"
+                >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="img img-1"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img img-2"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img img-3"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img img-4"></div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- end carousel -->
+            </div>
+        </section>
+
+        <script src="./assets/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
