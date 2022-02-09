@@ -13,6 +13,24 @@
     height: 500px;
     margin-bottom: 5rem;
 
+    .carousel-item {
+        transition: all 500ms ease !important;
+    }
+
+    .btns {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 2rem;
+
+        .arrow-btn {
+            all: initial;
+            background-color: #333 !important;
+            cursor: pointer;
+            padding: 0.6rem;
+        }
+    }
+
     article {
         background-color: #fff;
         display: flex;

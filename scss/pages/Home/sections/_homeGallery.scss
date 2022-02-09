@@ -4,6 +4,10 @@
     .carousel {
         margin: 2rem;
 
+        &-item {
+            transition: all 500ms ease !important;
+        }
+
         .img {
             background-size: cover;
             background-position: center;

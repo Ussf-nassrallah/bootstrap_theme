@@ -10817,6 +10817,21 @@ h5,
   height: 500px;
   margin-bottom: 5rem;
 }
+.portfolio .carousel-item {
+  transition: all 500ms ease !important;
+}
+.portfolio .btns {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 2rem;
+}
+.portfolio .btns .arrow-btn {
+  all: initial;
+  background-color: #333 !important;
+  cursor: pointer;
+  padding: 0.6rem;
+}
 .portfolio article {
   background-color: #fff;
   display: flex;
@@ -10873,6 +10888,9 @@ h5,
 
 .home-gallery .carousel {
   margin: 2rem;
+}
+.home-gallery .carousel-item {
+  transition: all 500ms ease !important;
 }
 .home-gallery .carousel .img {
   background-size: cover;
