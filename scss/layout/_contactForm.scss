@@ -1,0 +1,27 @@
+@import "../helpers/helpers";
+
+.form-section {
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        margin: auto !important;
+    }
+
+    overflow: hidden;
+    background-color: $dark-blue-clr;
+
+    .img {
+        background-image: url("../../assets/images/about-img.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .form-div {
+        background-color: $dark-blue-clr;
+        padding: 2rem;
+    }
+}

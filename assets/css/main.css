@@ -10661,6 +10661,28 @@ footer .social li:not(:first-child) {
   margin-left: 2rem;
 }
 
+.form-section {
+  overflow: hidden;
+  background-color: #10217d;
+}
+.form-section * {
+  margin: 0;
+  box-sizing: border-box;
+}
+.form-section header {
+  margin: auto !important;
+}
+.form-section .img {
+  background-image: url("../../assets/images/about-img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.form-section .form-div {
+  background-color: #10217d;
+  padding: 2rem;
+}
+
 .btn {
   padding: 0.9rem 1.5rem !important;
   text-transform: uppercase !important;
