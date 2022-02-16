@@ -10619,10 +10619,8 @@ textarea.form-control-lg {
   top: 0;
   width: 100%;
   z-index: 100;
-  background-color: rgba(255, 255, 255, 0.9);
-}
-.navbar-brand img {
-  width: 100px !important;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 0 !important;
 }
 .navbar a.nav-link {
   padding: 0 !important;
