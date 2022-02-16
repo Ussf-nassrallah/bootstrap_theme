@@ -11058,4 +11058,19 @@ a {
   background-size: cover !important;
 }
 
+@media (max-width: 767.98px) {
+  .team article {
+    flex-direction: column;
+  }
+  .team article .order-2 {
+    order: initial !important;
+  }
+  .team article div:last-child {
+    margin: 0 !important;
+  }
+  .team article div:last-child h3, .team article div:last-child .h3 {
+    margin: 1rem 0 !important;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
