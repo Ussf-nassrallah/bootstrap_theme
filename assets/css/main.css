@@ -10796,7 +10796,7 @@ a {
 
 @media (max-width: 767.98px) {
   .intro__div .container h1, .intro__div .container .h1 {
-    font-size: 1.2rem !important;
+    font-size: 2rem !important;
   }
 }
 .about .section-hdr span {
@@ -11052,7 +11052,7 @@ a {
   }
 }
 .intro.about {
-  height: 55vh !important;
+  height: 50vh !important;
   background: linear-gradient(to right, rgba(22, 194, 213, 0.2), rgba(22, 194, 213, 0.9)), url("../../../../assets/images/header-img.avif") !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
