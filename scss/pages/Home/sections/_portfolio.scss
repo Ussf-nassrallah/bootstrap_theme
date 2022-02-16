@@ -33,8 +33,6 @@
 
     article {
         background-color: #fff;
-        display: flex;
-        align-items: center;
         padding: 2rem;
         height: 500px;
         margin: 2rem;
@@ -96,6 +94,37 @@
     .carousel-item:nth-child(2) {
         .left {
             background-image: url("../../../../assets/images/portfolio/img-2.avif");
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .portfolio {
+        article {
+            padding: 0 !important;
+            flex-direction: column !important;
+
+            .right {
+                margin-left: 0 !important;
+                padding: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .text-center {
+        text-align: start !important;
+    }
+
+    .portfolio {
+        article {
+            margin: 0 !important;
+            height: 600px !important;
+        }
+
+        .btns {
+            margin: 0 !important;
         }
     }
 }
