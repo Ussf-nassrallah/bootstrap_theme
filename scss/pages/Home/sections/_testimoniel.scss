@@ -51,3 +51,21 @@
         margin-top: 1rem;
     }
 }
+
+@media (max-width: 767.98px) {
+    .testimoniel {
+        article {
+            h4 {
+                font-size: 1.125rem;
+            }
+        }
+
+        .carousel-control-prev {
+            margin-left: 0;
+        }
+
+        .carousel-control-next {
+            margin-right: 0;
+        }
+    }
+}

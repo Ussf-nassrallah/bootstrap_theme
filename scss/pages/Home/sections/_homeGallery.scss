@@ -2,8 +2,6 @@
 
 .home-gallery {
     .carousel {
-        margin: 2rem;
-
         &-item {
             transition: all 500ms ease !important;
         }
@@ -42,5 +40,14 @@
         bottom: initial !important;
         width: 5% !important;
         padding: 1rem 0 !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .home-gallery {
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 10% !important;
+        }
     }
 }
