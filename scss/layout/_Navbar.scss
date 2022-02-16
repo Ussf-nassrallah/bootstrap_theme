@@ -8,11 +8,7 @@
     background-color: rgba($color: #fff, $alpha: 0.95);
     padding: 0 !important;
 
-    // &-brand {
-    //     img {
-    //         width: 100px !important;
-    //     }
-    // }
+    transition: all 500ms ease !important;
 
     a.nav-link {
         padding: 0 !important;
@@ -36,7 +32,6 @@
             border-left: 1px solid #fff;
 
             li {
-                // font-size: 2rem !important;
                 margin-left: 1rem;
 
                 svg {
@@ -44,6 +39,14 @@
                     color: #fff;
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar {
+        a.nav-link {
+            margin-bottom: 0.6rem !important;
         }
     }
 }
