@@ -17,16 +17,6 @@
             font-size: 2rem;
             line-height: 1.5;
         }
-
-        padding: 0 2rem !important;
-        height: 330px;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        margin-right: 1rem;
     }
 
     .carousel-control-prev,
@@ -45,7 +35,7 @@
     }
 
     .carousel-control-next {
-        margin-right: -1rem;
+        margin-right: -2rem;
     }
 
     .smile-face-img {
@@ -79,6 +69,26 @@
 
         .carousel-control-next {
             margin-right: 0;
+        }
+    }
+}
+
+@media (min-width: 767.98px) {
+    .testimoniel {
+        article {
+            padding: 0 2rem !important;
+            height: 330px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            margin-right: 1rem;
+        }
+
+        .carousel-control-next {
+            margin-right: -1rem;
         }
     }
 }

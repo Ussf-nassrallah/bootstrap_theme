@@ -10841,15 +10841,6 @@ a {
 .testimoniel .carousel {
   max-width: 600px;
 }
-.testimoniel article {
-  padding: 0 2rem !important;
-  height: 330px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-right: 1rem;
-}
 .testimoniel article h4, .testimoniel article .h4 {
   font-weight: 400;
   font-size: 2rem;
@@ -10869,7 +10860,7 @@ a {
   margin-left: -2rem;
 }
 .testimoniel .carousel-control-next {
-  margin-right: -1rem;
+  margin-right: -2rem;
 }
 .testimoniel .smile-face-img {
   position: absolute;
@@ -10894,6 +10885,20 @@ a {
   }
   .testimoniel .carousel-control-next {
     margin-right: 0;
+  }
+}
+@media (min-width: 767.98px) {
+  .testimoniel article {
+    padding: 0 2rem !important;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  .testimoniel .carousel-control-next {
+    margin-right: -1rem;
   }
 }
 .services {
