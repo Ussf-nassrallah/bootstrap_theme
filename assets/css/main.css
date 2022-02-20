@@ -10841,9 +10841,18 @@ a {
 .testimoniel .carousel {
   max-width: 600px;
 }
+.testimoniel article {
+  padding: 0 2rem !important;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
 .testimoniel article h4, .testimoniel article .h4 {
   font-weight: 400;
-  font-size: 2.125rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 .testimoniel .carousel-control-prev,
@@ -10860,7 +10869,7 @@ a {
   margin-left: -2rem;
 }
 .testimoniel .carousel-control-next {
-  margin-right: -2rem;
+  margin-right: -1rem;
 }
 .testimoniel .smile-face-img {
   position: absolute;

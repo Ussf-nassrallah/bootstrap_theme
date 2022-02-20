@@ -14,9 +14,19 @@
     article {
         h4 {
             font-weight: 400;
-            font-size: 2.125rem;
+            font-size: 2rem;
             line-height: 1.5;
         }
+
+        padding: 0 2rem !important;
+        height: 330px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-right: 1rem;
     }
 
     .carousel-control-prev,
@@ -35,7 +45,7 @@
     }
 
     .carousel-control-next {
-        margin-right: -2rem;
+        margin-right: -1rem;
     }
 
     .smile-face-img {
